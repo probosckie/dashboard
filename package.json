@@ -1,0 +1,49 @@
+{
+  "name": "tii-performance-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -p",
+    "dev": "webpack-dev-server --progress --colors --hot --open --config ./webpack.config-dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ],
+    "plugins": [
+      "react-html-attrs" 
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-react-html-attrs": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-2": "latest",
+    "css-loader": "latest",
+    "lodash": "latest",
+    "node-sass": "latest",
+    "react-hot-loader": "latest",
+    "react-router-dom": "latest",
+    "react-select": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "classnames": "latest",
+    "file-loader": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-jsonschema-form": "latest"
+  }
+}
+

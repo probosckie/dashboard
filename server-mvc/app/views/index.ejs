@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tii Performance Dashboard</title>
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<style>
+		@font-face {
+	    font-family: "glyphy";
+	    src: url('fonts/glyphicons-halflings-regular.woff2');
+		}
+
+		@font-face {
+			font-family: "f-regular";
+			src: url('fonts/Brown-Regular.otf');
+		}
+
+		@font-face {
+			font-family: "f-bold";
+			src: url('fonts/Brown-Bold.otf');
+		}
+		.top-header{
+			background-image: url('js/header_bg.jpg');
+		}
+
+		.showImg{
+			width:961px;
+			display: block;
+			height:445px;
+			background-image: url('js/org-tree.png');
+			background-size: cover;
+		}
+
+		.loading{
+			width:200px;
+			height:200px;
+			background-image: url('js/loader.gif')
+		}
+
+	</style>
+
+</head>
+<body>
+	<div id='app' class="tree"></div>
+  <script defer src="js/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+	margin:0 auto; padding:0; background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+    width: 100%;
+    
+}
+
+.hide{
+	display:none;
+}
+
+th{text-align:left;}
+
+table,th,td{border-bottom:solid 2px #ffffff;}
+
+.entire{
+	width:100%;
+	background-color: #ffffff;
+	display: inline-block
+}
+
+.separate {
+	display: inline-block;
+	margin-right:5px;
+}
+
+.headerText {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navHeader {
+    padding: 15px 0px 0px 0px;
+}
+
+.navHeader .separate {
+    padding: 15px;
+    background-color: #34495E;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navHeader .separate:hover {
+    padding: 15px;
+    background-color: #7F8C8D;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.tree  table td {
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #eceeef;
+    border-top: 0px;
+
+}
+
+input.edit-input:hover {
+    background-color: #ECEEEF;
+    border: none;
+}
+
+.uploadSection {
+    float: right; 
+    margin: 16px;
+}
+
+.sampleCSV {
+    float: right;
+    margin-top: 10px;
+}
+
+.hideButton {
+    display: none;
+}
+
+.browseFile, .btn {
+    padding: 6px 19px;
+    margin: 11px;
+    background-color: #10A8AB;
+    color: #fff;
+    cursor: pointer;
+}
+
+.uploadFlie {
+    background-color: #10A8AB;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.italic {
+    font-style: italic;
+}
+
+.downloadFlie {
+    background: transparent;
+    border: none;
+    background-color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.saveButton {
+    float: right;
+}
+
+.formHolder {
+    padding: 3% 7%;
+    margin: 0 auto;
+    width: 95% !important;
+}
+
+.margin-top-10{margin-top:10px;}
+
+.notificationCheck {
+    width: 3% !important;
+    float: left;
+}
+
+.checklabel {
+    padding: 6px;
+    font-weight: bold;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 19px;
+}
+
+.padding-bottom-19 {
+    padding-bottom: 19px;
+}

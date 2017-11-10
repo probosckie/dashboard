@@ -1,0 +1,220 @@
+$primary-black:#fff;
+$selected-black:#EAECEB;
+$font-color: #161317;
+$icon-color: #3778B2;
+$bottom-border: #E8E8E8;
+$nav-background: #F5F5F5;
+
+
+.display-linebreak {
+  white-space: pre-line;
+}
+
+.personal-details {
+	background-color: $nav-background;
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 100%;
+	padding: 47px 0;
+	font-family:"f-bold";
+
+	span{display:block;}
+	a {
+    	display: block;
+    	width: 100%;
+	    padding: 13px 5px 13px 50px;
+	    color: $font-color;
+	    text-transform: capitalize;
+    	letter-spacing: 0.7px;
+    	border-bottom: 1px solid $bottom-border;
+	}
+}
+
+.left-profile {
+	background-color: $nav-background;
+}
+
+a.active2:link, a.active2:visited, a.active2:hover, a.active2:active {
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+}
+
+.personal-details{
+	a:link, a:visited, a:hover, a:active {
+		text-decoration: none;
+	}
+}
+
+.active-nodeReport{
+	.nodeReport-active:link, .nodeReport-active:visited, .nodeReport-active:hover, .nodeReport-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+
+.active-userdetail{
+	.userdetail-active:link, .userdetail-active:visited, .userdetail-active:hover, .userdetail-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+
+	span:hover, a:hover {
+		background-color: $selected-black;
+	}
+	a:hover {
+		border-right: 7px solid #3F86C5;
+		background-color: $selected-black;
+	}
+}
+
+.main-option-wrapper {
+	span:hover, a:hover {
+		background-color: $selected-black;
+	}
+	a:hover {
+		border-right: 7px solid #3F86C5;
+		background-color: $selected-black;
+	}
+}
+
+.active-uploadData{
+	.uploadData-active:link, .uploadData-active:visited, .uploadData-active:hover, .uploadData-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+.active-buildForm{
+	.buildForm-active:link, .buildForm-active:visited, .buildForm-active:hover, .buildForm-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+.active-addRole{
+	.addRole-active:link, .addRole-active:visited, .addRole-active:hover, .addRole-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+.active-orgTree{
+	.orgTree-active:link, .orgTree-active:visited, .orgTree-active:hover, .orgTree-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+.active-reports{
+	.reports-active:link, .reports-active:visited, .reports-active:hover, .reports-active:active {
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+
+.active-viewForm{
+	.viewForm-active:link, .viewForm-active:visited, .viewForm-active:hover, .viewForm-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+
+.active-userForm {
+	.userForm-active:link, .userForm-active:visited, .userForm-active:hover, .userForm-active:active{
+		background-color: $selected-black;
+	    border-right: 7px solid #3F86C5;
+	}
+}
+
+.set-to-right{
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+    border: 0px;
+    padding: 5px 12px;
+    z-index: 2;
+    height: 47px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.set-to-right:hover, .set-to-right:active, .set-to-right:link, .set-to-right:visited, .set-to-right:focus {
+	outline: none;
+}
+
+.user-icon {
+    align-items: center;
+    font-size: 43px;
+    text-align: center;
+}
+
+.user-info {
+	margin-bottom: 5%;
+	color: $font-color;
+
+	table {
+		border-bottom: 0px;
+	}
+
+}
+
+.user-info table tr td{
+	border: none;
+	text-transform: lowercase;
+	padding: 2px 4px !important;
+}
+
+.glyphicon-user {
+	color: $icon-color;
+}
+
+.forms-list li{
+	background-color: #eee;
+    padding: 7px 11px;
+    border-bottom: 5px solid #fff;
+    cursor: pointer;
+}
+
+.status-color {
+	color: $icon-color;
+}
+
+/*.forms-list {
+    position: relative;
+    top: 12px;	
+}*/
+
+.form-list-section {
+	padding: 20px 20px 0px 0px;
+}
+
+.margin-right-25 {
+	margin-right: 25px;
+}
+
+.margin-top-0 {
+	margin-top: 0px;
+}
+
+.approve-form-list {
+	width: 38%;
+    margin-right: 20px;
+    position: relative;
+    top: 26px;
+    vertical-align: top;
+}
+
+.btn-success {
+	border: 1px solid #5cb85c;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+.btn-danger {
+	border: 1px solid #d9534f;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+.approve-form-preview {
+	padding-bottom: 40px;
+}

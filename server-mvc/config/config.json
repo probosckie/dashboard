@@ -1,0 +1,7 @@
+{ 
+	"accessKeyId": "YOURACCESSKEY", 
+	"secretAccessKey": "YOURSECRETKEY", 
+	"region": "us-east-1",
+	"endpoint": new AWS.Endpoint('https://dynamodb.us-east-1.amazonaws.com')
+}
+
